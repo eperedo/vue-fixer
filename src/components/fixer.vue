@@ -28,9 +28,9 @@ function created() {
 }
 
 function fixerUrl() {
-	const url = `${baseUrl}/${this.feature}?access_key=${this.apiKey}${
-		this.params
-	}`;
+	const url = `${this.protocol}:${baseUrl}/${this.feature}?access_key=${
+		this.apiKey
+	}${this.params}`;
 	return url;
 }
 
@@ -62,6 +62,10 @@ export default {
 		params: {
 			type: String,
 			default: '&base=EUR&symbols=USD,PEN',
+		},
+		protocol: {
+			type: String,
+			default: 'http',
 		},
 		fetching: {
 			type: Boolean,
