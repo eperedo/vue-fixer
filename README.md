@@ -2,6 +2,12 @@
 
 > The simple but powerful vue component for the fixer API
 
+### Documentation
+
+Full documentation [here](https://vue-fixer.eperedo.com)
+
+![Vue Fixer Demo](https://s3.amazonaws.com/vuecomp/vue-fixer-demo.png)
+
 ### Features support
 
 * [x] Latest rates endpoint
@@ -84,3 +90,10 @@ export default {
 | params   | &base=EUR&symbols=USD,PEN | String  | query parameters                                                   |
 | protocol | http                      | String  | The http protocol you want to use                                  |
 | fetching | true                      | Boolean | Flag who determine if the request to fixer must be done right away |
+
+### Events
+
+| Name  | Default | Value  | Description                   |
+| ----- | ------- | ------ | ----------------------------- |
+| input | none    | Object | The fixer http response       |
+| error | none    | Object | the fixer http response error |

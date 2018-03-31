@@ -6,6 +6,8 @@ title: Vue Fixer Documentation
 
 > The simple but powerful vue component for the fixer API
 
+![vue fixer demo](https://s3.amazonaws.com/vuecomp/vue-fixer-demo.png)
+
 ### Features support
 
 * [x] Latest rates endpoint
