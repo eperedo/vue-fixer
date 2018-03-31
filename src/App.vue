@@ -5,6 +5,7 @@
 			:feature="model.feature" />
 		<header class="header">
 			<h1 class="title">Vue <a href="https://fixer.io" target="_blank" rel="noopener">Fixer</a></h1>
+			<h2>Check the <a href="https://fixer.eperedo.com/docs">docs here</a></h2>
 		</header>
 		<section class="currencies">
 			<form class="form">
