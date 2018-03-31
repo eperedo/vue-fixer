@@ -1,7 +1,3 @@
----
-title: Vue Fixer Documentation
----
-
 # Vue-Fixer
 
 > The simple but powerful vue component for the fixer API
