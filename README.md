@@ -2,6 +2,8 @@
 
 > The simple but powerful vue component for the fixer API
 
+![vue fixer demo](https://s3.amazonaws.com/vuecomp/vue-fixer-demo.png)
+
 ### Features support
 
 * [x] Latest rates endpoint
@@ -20,6 +22,12 @@ First at all make sure you have a fixer API KEY. If you don't, please grab one [
 npm i vue-fixer -S
 ```
 
+Or using unpkg
+
+```html
+<script src="https://unpkg.com/vue-fixer/dist/vueFixer.umd.min.js"></script>
+```
+
 ### Include the component
 
 ```javascript
@@ -29,6 +37,7 @@ export default {
 	name: 'my-component',
 	components: {
 		vueFixer,
+		// vueFixer: window.vueFixer, if you are using the UMD version
 	},
 };
 ```
