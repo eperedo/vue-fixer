@@ -1,0 +1,16 @@
+<title>vueFixer demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./vueFixer.umd.js"></script>
+<link rel="stylesheet" href="./vueFixer.css">
+
+<div id="app">
+  <demo></demo>
+</div>
+
+<script>
+new Vue({
+  components: {
+    demo: vueFixer
+  }
+}).$mount('#app')
+</script>

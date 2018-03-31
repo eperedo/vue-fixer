@@ -4,7 +4,7 @@ title: Vue Fixer Documentation
 
 # Vue-Fixer
 
-> The simple but powerful component for the fixer API
+> The simple but powerful vue component for the fixer API
 
 ### Features support
 
@@ -20,7 +20,9 @@ First at all make sure you have a fixer API KEY. If you don't, please grab one [
 
 ### Installing
 
+```bash
 npm i vue-fixer -S
+```
 
 ### Include the component
 
