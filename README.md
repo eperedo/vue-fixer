@@ -93,3 +93,10 @@ export default {
 | params   | &base=EUR&symbols=USD,PEN | String  | query parameters                                                   |
 | protocol | http                      | String  | The http protocol you want to use                                  |
 | fetching | true                      | Boolean | Flag who determine if the request to fixer must be done right away |
+
+### Events
+
+| Name  | Default | Value  | Description                   |
+| ----- | ------- | ------ | ----------------------------- |
+| input | none    | Object | The fixer http response       |
+| error | none    | Object | the fixer http response error |
