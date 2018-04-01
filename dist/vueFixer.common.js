@@ -125,7 +125,9 @@ function fetching() {
     fetch(this.fixerUrl).then(function (r) {
       return r.json();
     }).then(function (fixerData) {
-      return _this2.$emit('input', fixerData);
+      _this2.fixerData = fixerData;
+
+      _this2.$emit('input', fixerData);
     }).catch(function (err) {
       return _this2.$emit('error', err);
     });
@@ -168,7 +170,7 @@ function fetching() {
     params: fetching
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-30ecbda6","hasScoped":false,"optionsId":"0","buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/fixer.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-7a3b0327","hasScoped":false,"optionsId":"1","buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/fixer.vue
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._t("default",null,{fixer:_vm.fixerData})],2)}
 var staticRenderFns = []
 

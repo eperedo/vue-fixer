@@ -38,7 +38,10 @@ function fetching() {
 	if (this.fetching) {
 		fetch(this.fixerUrl)
 			.then(r => r.json())
-			.then(fixerData => this.$emit('input', fixerData))
+			.then(fixerData => {
+				this.fixerData = fixerData;
+				this.$emit('input', fixerData);
+			})
 			.catch(err => this.$emit('error', err));
 	}
 }

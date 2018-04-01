@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.0.1/workbox-sw.js");
 
 importScripts(
-  "./precache-manifest.22db9ec412cbec8c7379c4fad0195e33.js"
+  "./precache-manifest.811aeb0705605c2ef0a0ce65a4e91303.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-fixer"});

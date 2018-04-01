@@ -1,6 +1,6 @@
 {
 	"name": "vue-fixer",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"main": "dist/vueFixer.common.js",
 	"scripts": {
 		"serve": "vue-cli-service serve --open",

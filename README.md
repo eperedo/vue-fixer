@@ -100,3 +100,24 @@ export default {
 | ----- | ------- | ------ | ----------------------------- |
 | input | none    | Object | The fixer http response       |
 | error | none    | Object | the fixer http response error |
+
+### Slots
+
+Instead using events you can use slots and get the same result
+
+```html
+<fixer :api-key="model.key">
+  <div slot-scope="props">
+    <div v-show="props.fixer.success">
+      <header>
+        <h2>Today 1 {{ props.fixer.base }} worth</h2>
+      </header>
+      <section>
+        <ul v-for="(rate, label) in props.fixer.rates" :key="rate">
+          <li>In {{label}} = {{ rate }}</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</fixer>
+```

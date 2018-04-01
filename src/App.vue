@@ -40,20 +40,6 @@
 					</ul>
 				</section>
 			</div>
-			<!-- <fixer :api-key="model.key" params="&base=EUR&symbols=USD,JPY,PEN" fetching>
-				<div slot-scope="props">
-					<div v-show="props.fixer.success">
-						<header>
-							<h2>Hoy 1 {{ props.fixer.base }} vale</h2>
-						</header>
-						<section>
-							<ul v-for="(rate, label) in props.fixer.rates" :key="rate">
-								<li>En {{label}} = {{ rate }}</li>
-							</ul>
-						</section>
-					</div>
-				</div>
-			</fixer> -->
 		</section>
 	</section>
 </template>

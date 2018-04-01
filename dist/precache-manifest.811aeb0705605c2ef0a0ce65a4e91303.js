@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "e9168036759bf9b11323",
+    "revision": "dbc0aae40423621d211c",
     "url": "./vueFixer.umd.min.js"
   }
 ];
